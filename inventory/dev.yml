@@ -2,8 +2,8 @@
 172.31.16.134 ansible_ssh_user=ec2-user
 
 [webservers]
-172.31.20.223 ansible_ssh_user=ec2-user
-172.31.26.145 ansible_ssh_user=ec2-user
+172.31.31.120 ansible_ssh_user=ec2-user
+172.31.25.26 ansible_ssh_user=ec2-user
 
 [db]
 <Database-Private-IP-Address> ansible_ssh_user=ec2-user 
