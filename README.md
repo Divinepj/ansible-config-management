@@ -6,4 +6,4 @@ and it is fun
 
 updateed now and better
 
-the last project was submitted successfully
+the last project was submitted successfully.
