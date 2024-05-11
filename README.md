@@ -8,5 +8,5 @@ updateed now and better
 
 the last project was submitted successfully.
 
-waiting TO GO
+waiting TO GO live
 
