@@ -7,5 +7,5 @@ and it is fun
 updateed now and better..,
 go go go NOW  all to go
 
-save artifact set up complete
+save artifact set up complete updated
 
