@@ -1,23 +1,7 @@
 ---
-- name: update web, nfs and db servers
-  hosts: webservers, nfs, db
-  become: yes
-  tasks:
-    - name: ensure wireshark is at the latest version
-      yum:
-        name: wireshark
-        state: latest
-   
+- hosts: all
+- import_playbook: ../static-assignments/common.yml
 
-- name: update LB server
-  hosts: lb
-  become: yes
-  tasks:
-    - name: Update apt repo
-      apt: 
-        update_cache: yes
+- hosts: uat-webservers
+- import_playbook: ../static-assignments/uat-webservers.yml
 
-    - name: ensure wireshark is at the latest version
-      apt:
-        name: wireshark
-        state: latest
