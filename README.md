@@ -2,7 +2,7 @@
 
 hello i am using jenkins
 
-goal
+goal amm
 
 
 
